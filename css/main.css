@@ -1,0 +1,143 @@
+.cloudbg-wrapper {
+  width: 100vw;
+  height: 56.25vw;
+  background-color: #0065a8;
+  background-image: url("../images/cloudbg.png");
+  background-position: 0 -167px;
+  background-repeat: no-repeat;
+  transition: background-position 1.6s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
+}
+
+.cloudbg-wrapper.active {
+  background-position: 0 -1071px;
+  transition: background-position 1.18s cubic-bezier(0.22, 0.61, 0.35, 1) 0.24s;
+}
+
+.cloudbg-wrapper.active .home {
+  background-position: -409px 326px, 724px 222px;
+  transition: background-position 0.85s cubic-bezier(0.64, 0.04, 0.35, 1) 0.1s;
+}
+
+.cloudbg-wrapper.active .home .plane {
+  top: 380px;
+  left: 1920px;
+  width: 2316px;
+  height: 989px;
+  transition: top 1.67s cubic-bezier(0.64, 0.04, 0.35, 1) 0.06s, left 1.67s cubic-bezier(0.64, 0.04, 0.35, 1) 0.06s, width 1.67s cubic-bezier(0.64, 0.04, 0.35, 1) 0.06s, height 1.67s cubic-bezier(0.64, 0.04, 0.35, 1) 0.06s;
+}
+
+.cloudbg-wrapper.active .home .introduction {
+  left: 1936px;
+  transition: left 1s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
+}
+
+.home {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/cloud5.png"), url("../images/cloud-five.png");
+  background-position: -409px 823px, 724px 719px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  transition: background-position 1.6s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
+}
+
+.home .plane {
+  position: absolute;
+  top: 384px;
+  left: 31px;
+  width: 937px;
+  height: 400px;
+  background-image: url("../images/plane.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  transition: top 1.6s cubic-bezier(0.64, 0.04, 0.35, 1) 0s, left 1.6s cubic-bezier(0.64, 0.04, 0.35, 1) 0s, width 1.6s cubic-bezier(0.64, 0.04, 0.35, 1) 0s, height 1.6s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
+}
+
+.home .introduction {
+  position: absolute;
+  bottom: 323px;
+  left: 1071px;
+  width: 720px;
+  transition: left 1s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
+}
+
+.home .introduction .sales {
+  font-family: Poppins;
+  font-size: 36px;
+  color: #0093b2;
+}
+
+.home .introduction .discount {
+  font-family: Poppins;
+  font-size: 91px;
+  line-height: 91px;
+  color: #0093b2;
+}
+
+.home .introduction .regions {
+  font-family: Poppins;
+  font-size: 91px;
+  font-weight: 800;
+  line-height: 91px;
+  color: #0093b2;
+  word-spacing: 4px;
+  letter-spacing: -4px;
+}
+
+.home .introduction .book-now-btn {
+  width: 273px;
+  height: 63px;
+  border-radius: 35px;
+  background: linear-gradient(42.24deg, #F07FDE 0%, #8D44E7 100%);
+  box-shadow: -5px 11px 25px #d26ddd;
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+@font-face {
+  font-family: BebasNeueBold;
+  src: url("../font/BebasNeue/BebasNeue-Bold.otf");
+}
+
+@font-face {
+  font-family: PlayfairDisplay-Bold;
+  src: url("../font/Playfair/PlayfairDisplay-Bold.otf");
+}
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url("../font/Poppins/Poppins-Regular.otf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, button, ul, li, h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button, input {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=main.css.map */
