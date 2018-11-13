@@ -1,5 +1,7 @@
 @import "../common/function";
 
+$plane-z-index: 100;
+
 .cloudbg-wrapper {
   width: responsive(1920);
   height: responsive(1080);
@@ -29,6 +31,12 @@
         left: 1936px;
         transition: left 1s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
       }
+
+      .form {
+        top: 222px;
+        left: 191px;
+        transition: top .61s linear .18s, left .61s linear .18s;
+      }
     }
   }
 }
@@ -53,6 +61,7 @@
     background-image: url("../images/plane.png");
     background-size: 100%;
     background-repeat: no-repeat;
+    z-index: $plane-z-index;
     transition: top 1.6s cubic-bezier(0.64, 0.04, 0.35, 1) 0s, left 1.6s cubic-bezier(0.64, 0.04, 0.35, 1) 0s, width 1.6s cubic-bezier(0.64, 0.04, 0.35, 1) 0s, height 1.6s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
   }
 
@@ -96,6 +105,108 @@
       font-size: 36px;
       font-weight: 800;
       color: #ffffff;
+    }
+  }
+
+  .form {
+    position: absolute;
+    top: 1081px;
+    left: 191px;
+    padding: 36px 57px 0 66px;
+    width: 1538px;
+    height: 694px;
+    background-color: #e9f8fb;
+    border-radius: 31px;
+    box-shadow: -25px 25px 50px 0 rgba(0,75,121,0.72);
+    transition: top 1.6s cubic-bezier(0.64, 0.04, 0.35, 1) 0s, left 1.6s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
+
+    .form-title {
+      font-size: 64px;
+      color: #1392b4;
+      text-align: center;
+    }
+
+    .radio-group {
+      display: flex;
+      align-items: center;
+      margin-top: 65px;
+
+      input {
+        display: none;
+      }
+
+      label {
+        margin-right: 50px;
+        font-size: 22px;
+        color: #1392B4;
+        cursor: pointer;
+      }
+
+      i {
+        margin-right: 19px;
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+        border-radius: 16px;
+        background-color: #ffffff;
+        box-shadow: 0 7px 9px 0 rgba(0,0,0,0.11);
+        cursor: pointer;
+
+        &.active {
+          background-color: #1392B4;
+        }
+      }
+    }
+
+    .input-group {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      input {
+        margin-top: 52px;
+        padding-left: 40px;
+        width: 452px;
+        height: 90px;
+        border-radius: 18px;
+        background-color: #fafeff;
+        box-shadow: -10px 14px 20px 0 rgba(117,117,117,0.17);
+        font-size: 22px;
+        color: #1392B4;
+
+        &::placeholder {
+          font-size: 22px;
+          color: #B0C1C6;
+        }
+
+        &:last-child {
+          margin-left: 31px;
+          margin-right: auto;
+        }
+      }
+    }
+
+    .search-flights-btn-wrapper {
+      display: flex;
+
+      .search-flights-btn {
+        margin-top: 24px;
+        margin-left: auto;
+        padding: 22px 81px;
+        padding-bottom: 23px;
+        background-image: linear-gradient(42.24deg, #7FF0D2 0%, #4686E7 100%);
+        border-radius: 18px;
+        box-shadow: -5px 11px 25px 0 #6EC6DD;
+        font-size: 45px;
+        color: #ffffff;
+      }
+    }
+    
+
+    .term-of-service {
+      margin-top: 19px;
+      font-size: 16px;
+      color: #1392B4;
     }
   }
 }
