@@ -140,7 +140,7 @@
   cursor: pointer;
 }
 
-.home .form .radio-group i {
+.home .form .radio-group .radio-icon {
   margin-right: 19px;
   display: inline-block;
   width: 32px;
@@ -151,7 +151,7 @@
   cursor: pointer;
 }
 
-.home .form .radio-group i.active {
+.home .form .radio-group .radio-icon.active {
   background-color: #1392B4;
 }
 
