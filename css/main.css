@@ -37,6 +37,16 @@
   transition: top .61s linear .18s, left .61s linear .18s;
 }
 
+.cloudbg-wrapper.active .home .return-btn {
+  background-color: rgba(200, 200, 200, 0.24);
+  transition: background-color 0.46s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
+}
+
+.cloudbg-wrapper.active .home .return-btn .icon-arrow {
+  transform: rotate(270deg);
+  transition: transform 1s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
+}
+
 .home {
   position: relative;
   width: 100%;
@@ -203,6 +213,26 @@
   margin-top: 19px;
   font-size: 16px;
   color: #1392B4;
+}
+
+.home .return-btn {
+  position: absolute;
+  bottom: 75px;
+  right: 80px;
+  width: 41px;
+  height: 41px;
+  border: 2px solid rgba(255, 255, 255, 0.45);
+  border-radius: 7px;
+  background-color: rgba(200, 200, 200, 0);
+  transition: background-color 1.6s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
+}
+
+.home .return-btn .icon-arrow {
+  display: inline-block;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.52);
+  transform: rotate(0deg);
+  transition: transform 1.6s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
 
 @font-face {
