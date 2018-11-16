@@ -173,6 +173,23 @@ $plane-z-index: 100;
       letter-spacing: -4px;
     }
 
+    .small-plane-wrapper {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+
+      .line {
+        width: 540px;
+        height: 5px;
+      }
+
+      .small-plane {
+        margin-left: 10px;
+        width: 38px;
+        height: 38px;
+      }
+    }
+
     .book-now-btn {
       width: 273px;
       height: 63px;
