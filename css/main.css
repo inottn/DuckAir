@@ -18,6 +18,21 @@
   transition: background-position 0.85s cubic-bezier(0.64, 0.04, 0.35, 1) 0.1s;
 }
 
+.cloudbg-wrapper.active .home .menu .logo {
+  opacity: 0;
+  transition: opacity 1s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
+}
+
+.cloudbg-wrapper.active .home .menu .logo-active {
+  opacity: 1;
+  transition: opacity 1s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
+}
+
+.cloudbg-wrapper.active .home .menu .logo-text, .cloudbg-wrapper.active .home .menu .menu-item, .cloudbg-wrapper.active .home .menu .icon-menu {
+  color: #ffffff;
+  transition: color 1s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
+}
+
 .cloudbg-wrapper.active .home .plane {
   top: 380px;
   left: 1920px;
@@ -45,6 +60,63 @@
 .cloudbg-wrapper.active .home .return-btn .icon-arrow {
   transform: rotate(270deg);
   transition: transform 1s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-left: 67px;
+  padding-right: 95px;
+}
+
+.menu .logo, .menu .logo-active {
+  width: 39px;
+  height: 38px;
+  transition: opacity 1.6s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
+}
+
+.menu .logo {
+  opacity: 1;
+}
+
+.menu .logo-active {
+  margin-left: -39px;
+  opacity: 0;
+}
+
+.menu .logo-text {
+  margin-left: 12px;
+  font-family: Poppins;
+  font-size: 42px;
+  font-weight: bold;
+  color: #1392B4;
+  transition: color 1.6s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
+}
+
+.menu .menu-list {
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: 81px;
+}
+
+.menu .menu-list .menu-item {
+  margin-left: 40px;
+  max-width: 178px;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: bold;
+  color: #0093B2;
+  transition: color 1.6s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
+}
+
+.menu .icon-menu {
+  background-color: transparent;
+  font-size: 36px;
+  color: #0093B2;
+  transition: color 1.6s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
 
 .home {
