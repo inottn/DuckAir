@@ -91,7 +91,6 @@ $plane-z-index: 100;
 
   .logo-text {
     margin-left: 12px;
-    font-family: Poppins;
     font-size: 42px;
     font-weight: bold;
     color: #1392B4;
@@ -108,7 +107,6 @@ $plane-z-index: 100;
     .menu-item {
       margin-left: 40px;
       max-width: 178px;
-      font-family: Poppins;
       font-size: 24px;
       font-weight: bold;
       color: #0093B2;
@@ -156,20 +154,17 @@ $plane-z-index: 100;
     transition: left 1s cubic-bezier(.64, .04, .35, 1) 0s;
 
     .sales {
-      font-family: Poppins;
       font-size: 36px;
       color: #0093b2;
     }
 
     .discount {
-      font-family: Poppins;
       font-size: 91px;
       line-height: 91px;
       color: #0093b2;
     }
 
     .regions {
-      font-family: Poppins;
       font-size: 91px;
       font-weight: 800;
       line-height: 91px;
@@ -184,7 +179,6 @@ $plane-z-index: 100;
       border-radius: 35px;
       background: linear-gradient(42.24deg, #F07FDE 0%, #8D44E7 100%);
       box-shadow: -5px 11px 25px #d26ddd;
-      font-family: Poppins;
       font-size: 36px;
       font-weight: 800;
       color: #ffffff;
@@ -212,7 +206,7 @@ $plane-z-index: 100;
     .radio-group {
       display: flex;
       align-items: center;
-      margin-top: 65px;
+      margin-top: 60px;
 
       input {
         display: none;
@@ -275,8 +269,8 @@ $plane-z-index: 100;
       .search-flights-btn {
         margin-top: 24px;
         margin-left: auto;
-        padding: 22px 81px;
-        padding-bottom: 23px;
+        width: 452px;
+        height: 90px;
         background-image: linear-gradient(42.24deg, #7FF0D2 0%, #4686E7 100%);
         border-radius: 18px;
         box-shadow: -5px 11px 25px 0 #6EC6DD;

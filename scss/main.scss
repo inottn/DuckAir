@@ -3,22 +3,26 @@
 @import "./layouts/home";
 
 @font-face {
-  font-family: BebasNeueBold;
-  src: url("../font/BebasNeue/BebasNeue-Bold.otf");
-}
-
-@font-face {
-  font-family: PlayfairDisplay-Bold;
-  src: url("../font/Playfair/PlayfairDisplay-Bold.otf");
-}
-
-@font-face {
-  font-family: Poppins-Regular;
+  font-family: Poppins;
   src: url("../font/Poppins/Poppins-Regular.otf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url("../font/Poppins/Poppins-Bold.otf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url("../font/Poppins/Poppins-ExtraBold.otf");
+  font-weight: 800;
 }
 
 * {
   box-sizing: border-box;
+  font-family: Poppins;
 }
 
 html, body, button, ul, li, h1, h2, h3, h4, h5, h6, p {
