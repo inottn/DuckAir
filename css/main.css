@@ -303,19 +303,19 @@
 
 @font-face {
   font-family: Poppins;
-  src: url("../font/Poppins/Poppins-Regular.otf");
+  src: url("../font/Poppins-Regular.otf");
   font-weight: normal;
 }
 
 @font-face {
   font-family: Poppins;
-  src: url("../font/Poppins/Poppins-Bold.otf");
+  src: url("../font/Poppins-Bold.otf");
   font-weight: bold;
 }
 
 @font-face {
   font-family: Poppins;
-  src: url("../font/Poppins/Poppins-ExtraBold.otf");
+  src: url("../font/Poppins-ExtraBold.otf");
   font-weight: 800;
 }
 
