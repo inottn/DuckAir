@@ -79,6 +79,7 @@ $plane-z-index: 100;
     width: 39px;
     height: 38px;
     transition: opacity 1.6s cubic-bezier(.64, .04, .35, 1) 0s;
+    cursor: pointer;
   }
 
   .logo {
@@ -94,6 +95,7 @@ $plane-z-index: 100;
     font-size: 42px;
     font-weight: bold;
     color: #1392B4;
+    cursor: pointer;
     transition: color 1.6s cubic-bezier(.64, .04, .35, 1) 0s;
   }
 
@@ -110,6 +112,7 @@ $plane-z-index: 100;
       font-size: 24px;
       font-weight: bold;
       color: #0093B2;
+      cursor: pointer;
       transition: color 1.6s cubic-bezier(.64, .04, .35, 1) 0s;
     }
   }
@@ -206,7 +209,7 @@ $plane-z-index: 100;
     position: absolute;
     top: 1081px;
     left: 191px;
-    padding: 36px 57px 0 66px;
+    padding: 30px 57px 0 66px;
     width: 1538px;
     height: 694px;
     background-color: #e9f8fb;
@@ -223,7 +226,7 @@ $plane-z-index: 100;
     .radio-group {
       display: flex;
       align-items: center;
-      margin-top: 60px;
+      margin-top: 42px;
 
       input {
         display: none;
@@ -231,7 +234,7 @@ $plane-z-index: 100;
 
       label {
         margin-right: 50px;
-        font-size: 22px;
+        font-size: 28px;
         color: #1392B4;
         cursor: pointer;
       }
@@ -265,11 +268,11 @@ $plane-z-index: 100;
         border-radius: 18px;
         background-color: #fafeff;
         box-shadow: -10px 14px 20px 0 rgba(117,117,117,.17);
-        font-size: 22px;
+        font-size: 28px;
         color: #1392B4;
 
         &::placeholder {
-          font-size: 22px;
+          font-size: inherit;
           color: #B0C1C6;
         }
 
@@ -298,8 +301,8 @@ $plane-z-index: 100;
     
 
     .term-of-service {
-      margin-top: 19px;
-      font-size: 16px;
+      margin-top: 20px;
+      font-size: 26px;
       color: #1392B4;
     }
   }
