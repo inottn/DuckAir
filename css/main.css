@@ -3,18 +3,19 @@
   height: 56.25vw;
   background-color: #0065a8;
   background-image: url("../images/cloudbg.png");
-  background-position: 0 -167px;
+  background-position: 0 -8.69792vw;
+  background-size: 100.83333vw 67.34375vw;
   background-repeat: no-repeat;
   transition: background-position 1.6s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
 
 .cloudbg-wrapper.active {
-  background-position: 0 -1071px;
+  background-position: 0 -55.78125vw;
   transition: background-position 1.18s cubic-bezier(0.22, 0.61, 0.35, 1) 0.24s;
 }
 
 .cloudbg-wrapper.active .home {
-  background-position: -409px 326px, 724px 222px;
+  background-position: -21.30208vw 16.97917vw, 37.70833vw 11.5625vw;
   transition: background-position 0.85s cubic-bezier(0.64, 0.04, 0.35, 1) 0.1s;
 }
 
@@ -34,21 +35,21 @@
 }
 
 .cloudbg-wrapper.active .home .plane {
-  top: 380px;
-  left: 1920px;
-  width: 2316px;
-  height: 989px;
+  top: 19.79167vw;
+  left: 100vw;
+  width: 120.625vw;
+  height: 51.51042vw;
   transition: top 1.67s cubic-bezier(0.64, 0.04, 0.35, 1) 0.06s, left 1.67s cubic-bezier(0.64, 0.04, 0.35, 1) 0.06s, width 1.67s cubic-bezier(0.64, 0.04, 0.35, 1) 0.06s, height 1.67s cubic-bezier(0.64, 0.04, 0.35, 1) 0.06s;
 }
 
 .cloudbg-wrapper.active .home .introduction {
-  left: 1936px;
+  left: 100.83333vw;
   transition: left 1s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
 
 .cloudbg-wrapper.active .home .form {
-  top: 222px;
-  left: 191px;
+  top: 11.5625vw;
+  left: 9.94792vw;
   transition: top .61s linear .18s, left .61s linear .18s;
 }
 
@@ -65,14 +66,14 @@
 .menu {
   display: flex;
   align-items: center;
-  padding-top: 40px;
-  padding-left: 67px;
-  padding-right: 95px;
+  padding-top: 2.08333vw;
+  padding-left: 3.48958vw;
+  padding-right: 4.94792vw;
 }
 
 .menu .logo, .menu .logo-active {
-  width: 39px;
-  height: 38px;
+  width: 2.03125vw;
+  height: 1.97917vw;
   transition: opacity 1.6s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
   cursor: pointer;
 }
@@ -82,13 +83,13 @@
 }
 
 .menu .logo-active {
-  margin-left: -39px;
+  margin-left: -2.03125vw;
   opacity: 0;
 }
 
 .menu .logo-text {
-  margin-left: 12px;
-  font-size: 42px;
+  margin-left: 0.625vw;
+  font-size: 2.1875vw;
   font-weight: bold;
   color: #1392B4;
   cursor: pointer;
@@ -100,13 +101,13 @@
   align-items: center;
   text-align: center;
   margin-left: auto;
-  margin-right: 81px;
+  margin-right: 4.21875vw;
 }
 
 .menu .menu-list .menu-item {
-  margin-left: 40px;
-  max-width: 178px;
-  font-size: 24px;
+  margin-left: 2.08333vw;
+  max-width: 9.27083vw;
+  font-size: 1.25vw;
   font-weight: bold;
   color: #0093B2;
   cursor: pointer;
@@ -115,7 +116,7 @@
 
 .menu .icon-menu {
   background-color: transparent;
-  font-size: 36px;
+  font-size: 1.875vw;
   color: #0093B2;
   transition: color 1.6s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
@@ -125,7 +126,8 @@
   width: 100%;
   height: 100%;
   background-image: url("../images/cloud5.png"), url("../images/cloud-five.png");
-  background-position: -409px 823px, 724px 719px;
+  background-position: -21.30208vw 42.86458vw, 37.70833vw 37.44792vw;
+  background-size: 42.55208vw 23.85417vw, 71.92708vw 37.65625vw;
   background-repeat: no-repeat;
   overflow: hidden;
   transition: background-position 1.6s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
@@ -133,10 +135,10 @@
 
 .home .plane {
   position: absolute;
-  top: 384px;
-  left: 31px;
-  width: 937px;
-  height: 400px;
+  top: 20vw;
+  left: 1.61458vw;
+  width: 48.80208vw;
+  height: 20.83333vw;
   background-image: url("../images/plane.png");
   background-size: 100%;
   background-repeat: no-repeat;
@@ -146,75 +148,75 @@
 
 .home .introduction {
   position: absolute;
-  bottom: 323px;
-  left: 1071px;
-  width: 720px;
+  bottom: 16.82292vw;
+  left: 55.78125vw;
+  width: 37.5vw;
   transition: left 1s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
 
 .home .introduction .sales {
-  font-size: 36px;
+  font-size: 1.875vw;
   color: #0093b2;
 }
 
 .home .introduction .discount {
-  font-size: 91px;
-  line-height: 91px;
+  font-size: 4.73958vw;
+  line-height: 4.73958vw;
   color: #0093b2;
 }
 
 .home .introduction .regions {
-  font-size: 91px;
+  font-size: 4.73958vw;
   font-weight: 800;
-  line-height: 91px;
+  line-height: 4.73958vw;
   color: #0093b2;
-  word-spacing: 4px;
-  letter-spacing: -4px;
+  word-spacing: 0.20833vw;
+  letter-spacing: -0.20833vw;
 }
 
 .home .introduction .small-plane-wrapper {
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 0.52083vw;
 }
 
 .home .introduction .small-plane-wrapper .line {
-  width: 540px;
-  height: 5px;
+  width: 28.125vw;
+  height: 0.26042vw;
 }
 
 .home .introduction .small-plane-wrapper .small-plane {
-  margin-left: 10px;
-  width: 38px;
-  height: 38px;
+  margin-left: 0.52083vw;
+  width: 1.97917vw;
+  height: 1.97917vw;
 }
 
 .home .introduction .book-now-btn {
-  width: 273px;
-  height: 63px;
-  border-radius: 35px;
+  width: 14.21875vw;
+  height: 3.28125vw;
+  border-radius: 1.82292vw;
   background: linear-gradient(42.24deg, #F07FDE 0%, #8D44E7 100%);
-  box-shadow: -5px 11px 25px #d26ddd;
-  font-size: 36px;
+  box-shadow: -0.26042vw 0.57292vw 1.30208vw #d26ddd;
+  font-size: 1.875vw;
   font-weight: 800;
   color: #ffffff;
 }
 
 .home .form {
   position: absolute;
-  top: 1081px;
-  left: 191px;
-  padding: 30px 57px 0 66px;
-  width: 1538px;
-  height: 694px;
+  top: 56.30208vw;
+  left: 9.94792vw;
+  padding: 1.5625vw 2.96875vw 0 3.4375vw;
+  width: 80.10417vw;
+  height: 36.14583vw;
   background-color: #e9f8fb;
-  border-radius: 31px;
-  box-shadow: -25px 25px 50px 0 rgba(0, 75, 121, 0.72);
+  border-radius: 1.61458vw;
+  box-shadow: -1.30208vw 1.30208vw 2.60417vw 0 rgba(0, 75, 121, 0.72);
   transition: top 1.6s cubic-bezier(0.64, 0.04, 0.35, 1) 0s, left 1.6s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
 
 .home .form .form-title {
-  font-size: 64px;
+  font-size: 3.33333vw;
   color: #1392b4;
   text-align: center;
 }
@@ -222,7 +224,7 @@
 .home .form .radio-group {
   display: flex;
   align-items: center;
-  margin-top: 42px;
+  margin-top: 2.1875vw;
 }
 
 .home .form .radio-group input {
@@ -230,20 +232,20 @@
 }
 
 .home .form .radio-group label {
-  margin-right: 50px;
-  font-size: 28px;
+  margin-right: 2.60417vw;
+  font-size: 1.45833vw;
   color: #1392B4;
   cursor: pointer;
 }
 
 .home .form .radio-group .radio-icon {
-  margin-right: 19px;
+  margin-right: 0.98958vw;
   display: inline-block;
-  width: 32px;
-  height: 32px;
-  border-radius: 16px;
+  width: 1.66667vw;
+  height: 1.66667vw;
+  border-radius: 0.83333vw;
   background-color: #ffffff;
-  box-shadow: 0 7px 9px 0 rgba(0, 0, 0, 0.11);
+  box-shadow: 0 0.36458vw 0.46875vw 0 rgba(0, 0, 0, 0.11);
   cursor: pointer;
 }
 
@@ -258,14 +260,14 @@
 }
 
 .home .form .input-group input {
-  margin-top: 52px;
-  padding-left: 40px;
-  width: 452px;
-  height: 90px;
-  border-radius: 18px;
+  margin-top: 2.70833vw;
+  padding-left: 2.08333vw;
+  width: 23.54167vw;
+  height: 4.6875vw;
+  border-radius: 0.9375vw;
   background-color: #fafeff;
-  box-shadow: -10px 14px 20px 0 rgba(117, 117, 117, 0.17);
-  font-size: 28px;
+  box-shadow: -0.52083vw 0.72917vw 1.04167vw 0 rgba(117, 117, 117, 0.17);
+  font-size: 1.45833vw;
   color: #1392B4;
 }
 
@@ -275,7 +277,7 @@
 }
 
 .home .form .input-group input:last-child {
-  margin-left: 31px;
+  margin-left: 1.61458vw;
   margin-right: auto;
 }
 
@@ -284,38 +286,38 @@
 }
 
 .home .form .search-flights-btn-wrapper .search-flights-btn {
-  margin-top: 24px;
+  margin-top: 1.25vw;
   margin-left: auto;
-  width: 452px;
-  height: 90px;
+  width: 23.54167vw;
+  height: 4.6875vw;
   background-image: linear-gradient(42.24deg, #7FF0D2 0%, #4686E7 100%);
-  border-radius: 18px;
-  box-shadow: -5px 11px 25px 0 #6EC6DD;
-  font-size: 45px;
+  border-radius: 0.9375vw;
+  box-shadow: -0.26042vw 0.57292vw 1.30208vw 0 #6EC6DD;
+  font-size: 2.34375vw;
   color: #ffffff;
 }
 
 .home .form .term-of-service {
-  margin-top: 20px;
-  font-size: 26px;
+  margin-top: 1.04167vw;
+  font-size: 1.35417vw;
   color: #1392B4;
 }
 
 .home .return-btn {
   position: absolute;
-  bottom: 75px;
-  right: 80px;
-  width: 41px;
-  height: 41px;
-  border: 2px solid rgba(255, 255, 255, 0.45);
-  border-radius: 7px;
+  bottom: 3.90625vw;
+  right: 4.16667vw;
+  width: 2.13542vw;
+  height: 2.13542vw;
+  border: 0.10417vw solid rgba(255, 255, 255, 0.45);
+  border-radius: 0.36458vw;
   background-color: rgba(200, 200, 200, 0);
   transition: background-color 1.6s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
 }
 
 .home .return-btn .icon-arrow {
   display: inline-block;
-  font-size: 24px;
+  font-size: 1.25vw;
   color: rgba(255, 255, 255, 0.52);
   transform: rotate(0deg);
   transition: transform 1.6s cubic-bezier(0.64, 0.04, 0.35, 1) 0s;
@@ -351,6 +353,7 @@ html, body, button, ul, li, h1, h2, h3, h4, h5, h6, p {
 
 html {
   -webkit-tap-highlight-color: transparent;
+  overflow-x: hidden;
 }
 
 button, input {
