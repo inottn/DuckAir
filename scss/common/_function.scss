@@ -2,6 +2,6 @@
   @return $number / ($number * 0 + 1);
 }
 
-@function responsive($l) {
-  @return unquote(strip-units($l) / strip-units($root-width) * 100 + "vw");
+@function px2vw($l) {
+  @return strip-units($l) / strip-units($root-width) * 100 + vw;
 }

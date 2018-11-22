@@ -1,21 +1,21 @@
 $plane-z-index: 100;
 
 .cloudbg-wrapper {
-  width: responsive(1920);
-  height: responsive(1080);
+  width: px2vw(1920);
+  height: px2vw(1080);
   background-color: rgba(0, 101, 168, 1);
   background-image: url("../images/cloudbg.png");
-  background-position: 0 responsive(-167);
-  background-size: responsive(1936) responsive(1293);
+  background-position: 0 px2vw(-167);
+  background-size: px2vw(1936) px2vw(1293);
   background-repeat: no-repeat;
   transition: background-position 1.6s cubic-bezier(.64, .04, .35, 1) 0s;
 
   &.active {
-    background-position: 0 responsive(-1071);
+    background-position: 0 px2vw(-1071);
     transition: background-position 1.18s cubic-bezier(.22, .61, .35, 1) .24s;
 
     .home {
-      background-position: responsive(-409) responsive(326), responsive(724) responsive(222);
+      background-position: px2vw(-409) px2vw(326), px2vw(724) px2vw(222);
       transition: background-position .85s cubic-bezier(.64, .04, .35, 1) .1s;
 
       .menu {
@@ -36,21 +36,21 @@ $plane-z-index: 100;
       }
 
       .plane {
-        top: responsive(380);
-        left: responsive(1920);
-        width: responsive(2316);
-        height: responsive(989);
+        top: px2vw(380);
+        left: px2vw(1920);
+        width: px2vw(2316);
+        height: px2vw(989);
         transition: top 1.67s cubic-bezier(.64, .04, .35, 1) .06s, left 1.67s cubic-bezier(.64, .04, .35, 1) .06s, width 1.67s cubic-bezier(.64, .04, .35, 1) .06s, height 1.67s cubic-bezier(.64, .04, .35, 1) .06s;
       }
 
       .introduction {
-        left: responsive(1936);
+        left: px2vw(1936);
         transition: left 1s cubic-bezier(.64, .04, .35, 1) 0s;
       }
 
       .form {
-        top: responsive(222);
-        left: responsive(191);
+        top: px2vw(222);
+        left: px2vw(191);
         transition: top .61s linear .18s, left .61s linear .18s;
       }
 
@@ -70,13 +70,13 @@ $plane-z-index: 100;
 .menu {
   display: flex;
   align-items: center;
-  padding-top: responsive(40);
-  padding-left: responsive(67);
-  padding-right: responsive(95);
+  padding-top: px2vw(40);
+  padding-left: px2vw(67);
+  padding-right: px2vw(95);
 
   .logo, .logo-active {
-    width: responsive(39);
-    height: responsive(38);
+    width: px2vw(39);
+    height: px2vw(38);
     transition: opacity 1.6s cubic-bezier(.64, .04, .35, 1) 0s;
     cursor: pointer;
   }
@@ -85,13 +85,13 @@ $plane-z-index: 100;
     opacity: 1;
   }
   .logo-active {
-    margin-left: responsive(-39);
+    margin-left: px2vw(-39);
     opacity: 0;
   }
 
   .logo-text {
-    margin-left: responsive(12);
-    font-size: responsive(42);
+    margin-left: px2vw(12);
+    font-size: px2vw(42);
     font-weight: bold;
     color: #1392B4;
     cursor: pointer;
@@ -103,12 +103,12 @@ $plane-z-index: 100;
     align-items: center;
     text-align: center;
     margin-left: auto;
-    margin-right: responsive(81);
+    margin-right: px2vw(81);
 
     .menu-item {
-      margin-left: responsive(40);
-      max-width: responsive(178);
-      font-size: responsive(24);
+      margin-left: px2vw(40);
+      max-width: px2vw(178);
+      font-size: px2vw(24);
       font-weight: bold;
       color: #0093B2;
       cursor: pointer;
@@ -118,7 +118,7 @@ $plane-z-index: 100;
 
   .icon-menu {
     background-color: transparent;
-    font-size: responsive(36);
+    font-size: px2vw(36);
     color: #0093B2;
     transition: color 1.6s cubic-bezier(.64, .04, .35, 1) 0s;
   }
@@ -129,18 +129,18 @@ $plane-z-index: 100;
   width: 100%;
   height: 100%;
   background-image: url("../images/cloud5.png"), url("../images/cloud-five.png");
-  background-position: responsive(-409) responsive(823), responsive(724) responsive(719);
-  background-size: responsive(817) responsive(458), responsive(1381) responsive(723);
+  background-position: px2vw(-409) px2vw(823), px2vw(724) px2vw(719);
+  background-size: px2vw(817) px2vw(458), px2vw(1381) px2vw(723);
   background-repeat: no-repeat;
   overflow: hidden;
   transition: background-position 1.6s cubic-bezier(.64, .04, .35, 1) 0s;
 
   .plane {
     position: absolute;
-    top: responsive(384);
-    left: responsive(31);
-    width: responsive(937);
-    height: responsive(400);
+    top: px2vw(384);
+    left: px2vw(31);
+    width: px2vw(937);
+    height: px2vw(400);
     background-image: url("../images/plane.png");
     background-size: 100%;
     background-repeat: no-repeat;
@@ -150,55 +150,55 @@ $plane-z-index: 100;
 
   .introduction {
     position: absolute;
-    bottom: responsive(323);
-    left: responsive(1071);
-    width: responsive(720);
+    bottom: px2vw(323);
+    left: px2vw(1071);
+    width: px2vw(720);
     transition: left 1s cubic-bezier(.64, .04, .35, 1) 0s;
 
     .sales {
-      font-size: responsive(36);
+      font-size: px2vw(36);
       color: #0093b2;
     }
 
     .discount {
-      font-size: responsive(91);
-      line-height: responsive(91);
+      font-size: px2vw(91);
+      line-height: px2vw(91);
       color: #0093b2;
     }
 
     .regions {
-      font-size: responsive(91);
+      font-size: px2vw(91);
       font-weight: 800;
-      line-height: responsive(91);
+      line-height: px2vw(91);
       color: #0093b2;
-      word-spacing: responsive(4);
-      letter-spacing: responsive(-4);
+      word-spacing: px2vw(4);
+      letter-spacing: px2vw(-4);
     }
 
     .small-plane-wrapper {
       display: flex;
       align-items: center;
-      margin-bottom: responsive(10);
+      margin-bottom: px2vw(10);
 
       .line {
-        width: responsive(540);
-        height: responsive(5);
+        width: px2vw(540);
+        height: px2vw(5);
       }
 
       .small-plane {
-        margin-left: responsive(10);
-        width: responsive(38);
-        height: responsive(38);
+        margin-left: px2vw(10);
+        width: px2vw(38);
+        height: px2vw(38);
       }
     }
 
     .book-now-btn {
-      width: responsive(273);
-      height: responsive(63);
-      border-radius: responsive(35);
+      width: px2vw(273);
+      height: px2vw(63);
+      border-radius: px2vw(35);
       background: linear-gradient(42.24deg, #F07FDE 0%, #8D44E7 100%);
-      box-shadow: responsive(-5) responsive(11) responsive(25) #d26ddd;
-      font-size: responsive(36);
+      box-shadow: px2vw(-5) px2vw(11) px2vw(25) #d26ddd;
+      font-size: px2vw(36);
       font-weight: 800;
       color: #ffffff;
     }
@@ -206,18 +206,18 @@ $plane-z-index: 100;
 
   .form {
     position: absolute;
-    top: responsive(1081);
-    left: responsive(191);
-    padding: responsive(30) responsive(57) 0 responsive(66);
-    width: responsive(1538);
-    height: responsive(694);
+    top: px2vw(1081);
+    left: px2vw(191);
+    padding: px2vw(30) px2vw(57) 0 px2vw(66);
+    width: px2vw(1538);
+    height: px2vw(694);
     background-color: #e9f8fb;
-    border-radius: responsive(31);
-    box-shadow: responsive(-25) responsive(25) responsive(50) 0 rgba(0, 75, 121, .72);
+    border-radius: px2vw(31);
+    box-shadow: px2vw(-25) px2vw(25) px2vw(50) 0 rgba(0, 75, 121, .72);
     transition: top 1.6s cubic-bezier(.64, .04, .35, 1) 0s, left 1.6s cubic-bezier(.64, .04, .35, 1) 0s;
 
     .form-title {
-      font-size: responsive(64);
+      font-size: px2vw(64);
       color: #1392b4;
       text-align: center;
     }
@@ -225,27 +225,27 @@ $plane-z-index: 100;
     .radio-group {
       display: flex;
       align-items: center;
-      margin-top: responsive(42);
+      margin-top: px2vw(42);
 
       input {
         display: none;
       }
 
       label {
-        margin-right: responsive(50);
-        font-size: responsive(28);
+        margin-right: px2vw(50);
+        font-size: px2vw(28);
         color: #1392B4;
         cursor: pointer;
       }
 
       .radio-icon {
-        margin-right: responsive(19);
+        margin-right: px2vw(19);
         display: inline-block;
-        width: responsive(32);
-        height: responsive(32);
-        border-radius: responsive(16);
+        width: px2vw(32);
+        height: px2vw(32);
+        border-radius: px2vw(16);
         background-color: #ffffff;
-        box-shadow: 0 responsive(7) responsive(9) 0 rgba(0, 0, 0, .11);
+        box-shadow: 0 px2vw(7) px2vw(9) 0 rgba(0, 0, 0, .11);
         cursor: pointer;
 
         &.active {
@@ -260,14 +260,14 @@ $plane-z-index: 100;
       justify-content: space-between;
 
       input {
-        margin-top: responsive(52);
-        padding-left: responsive(40);
-        width: responsive(452);
-        height: responsive(90);
-        border-radius: responsive(18);
+        margin-top: px2vw(52);
+        padding-left: px2vw(40);
+        width: px2vw(452);
+        height: px2vw(90);
+        border-radius: px2vw(18);
         background-color: #fafeff;
-        box-shadow: responsive(-10) responsive(14) responsive(20) 0 rgba(117, 117, 117, .17);
-        font-size: responsive(28);
+        box-shadow: px2vw(-10) px2vw(14) px2vw(20) 0 rgba(117, 117, 117, .17);
+        font-size: px2vw(28);
         color: #1392B4;
 
         &::placeholder {
@@ -276,7 +276,7 @@ $plane-z-index: 100;
         }
 
         &:last-child {
-          margin-left: responsive(31);
+          margin-left: px2vw(31);
           margin-right: auto;
         }
       }
@@ -286,22 +286,22 @@ $plane-z-index: 100;
       display: flex;
 
       .search-flights-btn {
-        margin-top: responsive(24);
+        margin-top: px2vw(24);
         margin-left: auto;
-        width: responsive(452);
-        height: responsive(90);
+        width: px2vw(452);
+        height: px2vw(90);
         background-image: linear-gradient(42.24deg, #7FF0D2 0%, #4686E7 100%);
-        border-radius: responsive(18);
-        box-shadow: responsive(-5) responsive(11) responsive(25) 0 #6EC6DD;
-        font-size: responsive(45);
+        border-radius: px2vw(18);
+        box-shadow: px2vw(-5) px2vw(11) px2vw(25) 0 #6EC6DD;
+        font-size: px2vw(45);
         color: #ffffff;
       }
     }
     
 
     .term-of-service {
-      margin-top: responsive(20);
-      font-size: responsive(26);
+      margin-top: px2vw(20);
+      font-size: px2vw(26);
       color: #1392B4;
     }
   }
@@ -311,18 +311,18 @@ $plane-z-index: 100;
     justify-content: center;
     align-items: center;
     position: absolute;
-    bottom: responsive(75);
-    right: responsive(80);
-    width: responsive(41);
-    height: responsive(41);
-    border: responsive(2) solid rgba(255, 255, 255, .45);
-    border-radius: responsive(7);
+    bottom: px2vw(75);
+    right: px2vw(80);
+    width: px2vw(41);
+    height: px2vw(41);
+    border: px2vw(2) solid rgba(255, 255, 255, .45);
+    border-radius: px2vw(7);
     background-color: rgba(200, 200, 200, 0);
     transition: background-color 1.6s cubic-bezier(.64, .04, .35, 1) 0s;
 
     .icon-arrow {
       display: inline-block;
-      font-size: responsive(24);
+      font-size: px2vw(24);
       color: rgba(255, 255, 255, .52);
       transform: rotate(0deg);
       transition: transform 1.6s cubic-bezier(.64, .04, .35, 1) 0s;
