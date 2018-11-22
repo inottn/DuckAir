@@ -1,5 +1,3 @@
-@import "./var.scss";
-
 @function strip-units($number){
   @return $number / ($number * 0 + 1);
 }
