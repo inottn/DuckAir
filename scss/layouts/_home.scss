@@ -309,6 +309,9 @@ $plane-z-index: 100;
   }
 
   .return-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     bottom: responsive(75);
     right: responsive(80);
